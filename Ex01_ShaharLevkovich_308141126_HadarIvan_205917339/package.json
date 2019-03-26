@@ -1,0 +1,45 @@
+{
+  "checkSubmission": {
+    "ex": "1",
+    "students": [
+      {
+        "id": "308141126",
+        "fullName": "Shahar Levkovich",
+        "email": "shaharlev9@gmail.com"
+      },
+      {
+        "id": "205917339",
+        "fullName": "Hadar Ivan",
+        "email": "hadarosh1995@gmail.com"
+      }
+    ],
+    "os": "Mac",
+    "device": "iOS",
+    "deliveryDate": "03/20/2019",
+    "delay": false,
+    "delayReason": "no delay!",
+    "comments": "no comments"
+  },
+  "name": "Elections",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "16.8.3",
+    "react-native": "0.59.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.3.4",
+    "@babel/runtime": "7.3.4",
+    "babel-jest": "24.5.0",
+    "jest": "24.5.0",
+    "metro-react-native-babel-preset": "0.53.1",
+    "react-test-renderer": "16.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
